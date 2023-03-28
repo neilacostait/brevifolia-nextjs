@@ -1,4 +1,20 @@
 ---
 label: blog
 hide_body: false
-fields: []
+fields:
+- name: welcome_to_my_blog
+  type: text
+  config:
+    required: false
+  label: welcome to my blog
+  description: welcome
+- name: descriptiom
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: descriptiom
+  description: description
